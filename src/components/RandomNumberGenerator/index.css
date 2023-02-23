@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-number-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 30vh;
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+@media screen and (min-width: 768px) {
+  .random-number-container {
+    min-height: 60vh;
+    width: 50vw;
+  }
+}
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.description {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 25px;
+  }
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: 0px solid;
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+  }
+}
+.random-number {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number {
+    font-size: 70px;
+  }
+}
